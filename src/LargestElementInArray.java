@@ -13,7 +13,7 @@ public class LargestElementInArray {
                 }
             }
             if(flag==true){
-                return array[i];
+                return i;
             }
         }return -1;
     }
