@@ -12,7 +12,7 @@ public class LargestElementInArray {
                     break;
                 }
             }
-            if(flag){
+            if(flag==true){
                 return i;
             }
         }return -1;
