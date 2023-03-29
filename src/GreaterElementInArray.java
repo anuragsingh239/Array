@@ -16,6 +16,7 @@ public class GreaterElementInArray {
                 max=array[i];
 
             }
-        }return;
+        }
+        System.out.println(max);
     }
 }
