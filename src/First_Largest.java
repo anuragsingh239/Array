@@ -20,7 +20,7 @@ import java.util.Scanner;
 //    EFFEICIENT APPROACH
 public class First_Largest {
         public static int getLargest(int[] array) {
-            int result = array[0];
+            int result =array[0];
             for (int i = 1; i < array.length; i++) {
                 if (array[i] > result) {
                     result = array[i];
