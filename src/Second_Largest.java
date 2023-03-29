@@ -10,7 +10,7 @@ public class Second_Largest {
         }return largest;
     }
     static int SecondLargest(int []array){
-        int result=-1;//because it my chance it has only one value so -1
+        int result=-1;//because it might chance it has only one value so -1
         int largest=getLargest(array);
         for(int i=0;i<array.length;i++){
             if(array[i]!=array[largest]){
